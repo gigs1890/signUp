@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="imageSide">
+        </div>
+        <div id="formSide">
+            <div class="callToAction">
+                This is not a real service! But sign up now and one day it might be (it wont').
+                Try to realise this is just a student practising. But maybe it'll be real eventually!
+                It won't. But it might be! But it won't be.
+            </div>
+            <div class="callToAction">
+                Sign up.
+            </div>
+            <form action="signUpValidator" method="post">
+                <div class="formTopHalf">
+                    <legend>Give us your identifying information. You can trust us.</legend>
+                    <div class="firstName">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div class="lastName">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="phone">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="confirmPassword">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword">
+                    </div>
+                </div>
+                <div class="formBottomHalf">
+                    <button id="createAccount">Create Account</button>
+                    <div class="member">
+                        ALready have an account? <a href="#">Log in</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
